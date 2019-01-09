@@ -1,0 +1,53 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/RelativeLayout1"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:paddingBottom="16dp"
+    android:paddingLeft="16dp"
+    android:paddingRight="16dp"
+    android:paddingTop="16dp"
+    tools:context=".MainActivity">
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Points of Attractions in San Francisco, CA"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="49dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true" />
+
+        <TextView
+            android:id="@+id/textView2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Points of Attractions in New York"
+            tools:ignore="MissingConstraints"
+            android:layout_marginTop="61dp"
+            android:layout_below="@+id/button1"
+            android:layout_centerHorizontal="true" />
+
+        <Button
+            android:id="@+id/button1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here"
+            android:layout_below="@+id/textView1"
+            android:layout_centerHorizontal="true"
+            tools:ignore="MissingConstraints" />
+
+        <Button
+            android:id="@+id/button2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Click Here"
+            tools:layout_editor_absoluteX="238dp"
+            tools:layout_editor_absoluteY="240dp"
+            tools:ignore="MissingConstraints"
+            android:layout_below="@+id/textView2"
+            android:layout_alignStart="@+id/button1"/>
+
+</RelativeLayout>

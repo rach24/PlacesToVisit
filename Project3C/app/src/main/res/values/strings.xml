@@ -1,0 +1,25 @@
+<resources>
+    <string name="app_name">Project3C</string>
+    <string name="sanfrancisco_menu_item">San Francisco</string>
+    <string name="newyork_menu_item">New York</string>
+
+    <string-array name="attractions">
+    <item>Golden Gate Bridge</item>
+    <item>Fishermans Wharf</item>
+    <item>Alcatraz Island</item>
+    <item>Pier 39</item>
+    <item>Lombard Street</item>
+    <item>Union Square</item>
+</string-array>
+
+    <string-array name="attractionUrls">
+    <item>http://goldengatebridge.org/</item>
+    <item>http://www.fishermanswharf.org/</item>
+    <item>https://www.alcatrazcruises.com/</item>
+    <item>https://www.pier39.com/</item>
+    <item>https://www.sftodo.com/sanfrancisco/crooked-street-lombard/</item>
+    <item>http://www.visitunionsquaresf.com/</item>
+    </string-array>
+
+</resources>
+

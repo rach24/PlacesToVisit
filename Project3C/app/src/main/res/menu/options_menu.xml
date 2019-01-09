@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item
+        android:id="@+id/attractionsMenuItem"
+        android:title="@string/sanfrancisco_menu_item" />
+    <item
+        android:id="@+id/attractions2MenuItem"
+        android:title="@string/newyork_menu_item" />
+
+</menu>
